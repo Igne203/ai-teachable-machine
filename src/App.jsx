@@ -137,7 +137,7 @@ const initialModels = [
     title: "Širdutė ir 5 pirštai",
     description:
       "Pirmasis modelis yra image tipo ir apmokytas atpažinti širdutės gestą bei atvirą delną.",
-    path: "/my_model/",
+    path: `${import.meta.env.BASE_URL}my_model/`,
     watchedClass: "Heart",
     classHints: ["Heart", "5 fingers"],
     type: "image",
@@ -148,7 +148,7 @@ const initialModels = [
     title: "Like ir 2 pirštai",
     description:
       "Antrasis modelis yra pose tipo ir apmokytas atpažinti like gestą bei du pakeltus pirštus.",
-    path: "/my_model_2/",
+    path: `${import.meta.env.BASE_URL}my_model_2/`,
     watchedClass: "like",
     classHints: ["like", "2 fingers"],
     type: "pose",
